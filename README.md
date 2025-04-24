@@ -113,4 +113,4 @@ Take screenshots of your queries + results in MySQL Workbench.
 Save your queries in a .sql file (e.g., ecommerce_analysis.sql)
 Create a PDF report with your screenshots.
 
-##ThankYou
+#ThankYou
