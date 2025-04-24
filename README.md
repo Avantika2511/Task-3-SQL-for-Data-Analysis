@@ -1,14 +1,6 @@
 SQL Data Analysis using MySQL
 
-🧱 Step 1: Install MySQL
-
-🔧 Download & Install:
-
-Go to the MySQL Downloads Page
-
-Download the MySQL Installer for your OS.
-
-During installation, install:
+🧱 Step 1: Install
 
 MySQL Server
 
@@ -18,10 +10,6 @@ Set a root password (to log in).
 
 
 🗃 Step 2: Set Up Your Database
-
-Open MySQL Workbench.
-
-Run this in a new SQL tab:
 
 Sql code:
 
@@ -65,10 +53,8 @@ CREATE TABLE Order_Items (
 );
 
 
-💾 Step 3: Insert Sample Data:
+💾 Step 3: Insert Data:
 
- insert data manually:
- 
 sql code:
 
 INSERT INTO Customers VALUES (1, 'Alice', 'alice@gmail.com'); ..(like this more)
@@ -80,8 +66,6 @@ INSERT INTO Orders VALUES (1, 1, '2024-01-01', 999.99); ..(like this more)
 INSERT INTO Order_Items VALUES (1, 1, 1, 1, 999.99); ..(like this more)
 
 🧠 Step 4: Write SQL Queries for Analysis
-
-Use the MySQL Workbench to write your queries. Here's a sample set:
 
 ✅ a. Basic Query
 Sql code:
@@ -124,9 +108,9 @@ CREATE INDEX idx_customer_id ON Orders(customer_id);
 
 CREATE INDEX idx_order_date ON Orders(order_date);
 
-ThankYou
-
 📸 Step 6: Document Results
 Take screenshots of your queries + results in MySQL Workbench.
 Save your queries in a .sql file (e.g., ecommerce_analysis.sql)
 Create a PDF report with your screenshots.
+
+##ThankYou
